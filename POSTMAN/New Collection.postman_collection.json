@@ -1,0 +1,118 @@
+{
+	"info": {
+		"_postman_id": "e2f43f98-ece9-4edc-b5eb-e29c9d92744c",
+		"name": "New Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "30348174",
+		"_collection_link": "https://dark-station-752477.postman.co/workspace/5d66b5d5-e027-432f-ac4b-ca43f4c91467/collection/30348174-e2f43f98-ece9-4edc-b5eb-e29c9d92744c?action=share&source=collection_link&creator=30348174"
+	},
+	"item": [
+		{
+			"name": "http://localhost/php-master/4_subir_descarga_eliminar/subidor.php",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "",
+							"value": "",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "archivo",
+							"type": "file",
+							"src": "/C:/Users/dougl/Downloads/finalInjection.php"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost/php-master/4_subir_descarga_eliminar/subidor.php",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"php-master",
+						"4_subir_descarga_eliminar",
+						"subidor.php"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "http://localhost/php-master/4_subir_descarga_eliminar/subidor.php",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "",
+									"value": "",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "archivo",
+									"type": "file",
+									"src": "/C:/Users/dougl/Downloads/injection.txt"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost/php-master/4_subir_descarga_eliminar/subidor.php",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"php-master",
+								"4_subir_descarga_eliminar",
+								"subidor.php"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "html",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Mon, 09 Oct 2023 04:24:56 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Apache/2.4.54 (Win64) PHP/8.0.26 mod_fcgid/2.3.10-dev"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/8.0.26"
+						},
+						{
+							"key": "Content-Length",
+							"value": "34"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5, max=100"
+						},
+						{
+							"key": "Connection",
+							"value": "Keep-Alive"
+						},
+						{
+							"key": "Content-Type",
+							"value": "text/html; charset=UTF-8"
+						}
+					],
+					"cookie": [],
+					"body": "injection.txt subido completamente"
+				}
+			]
+		}
+	]
+}
